@@ -1,0 +1,6 @@
+const year = new Date().getFullYear(); document.querySelectorAll('[data-year]').forEach(e => e.textContent = year);
+const menu = document.querySelector('.menu-btn'); const mobile = document.querySelector('.mobile-nav'); if (menu) menu.addEventListener('click', () => mobile.classList.toggle('open'));
+document.querySelectorAll('.reveal').forEach(el => { const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('show'); io.unobserve(e.target) } }), { threshold: .12 }); io.observe(el) });
+document.querySelectorAll('.faq-q').forEach(btn => btn.addEventListener('click', () => btn.parentElement.classList.toggle('open')));
+document.querySelectorAll('.module button').forEach(btn => btn.addEventListener('click', () => btn.parentElement.classList.toggle('open')));
+document.querySelectorAll('[data-counter]').forEach(el => { const target = +el.dataset.counter; let done = false; const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting && !done) { done = true; let n = 0; const step = Math.max(1, Math.ceil(target / 45)); const t = setInterval(() => { n = Math.min(target, n + step); el.textContent = n.toLocaleString() + '+'; if (n >= target) clearInterval(t) }, 25); io.disconnect() } })); io.observe(el) });
