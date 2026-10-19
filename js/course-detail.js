@@ -1,13 +1,268 @@
 const data = {
+      
+    // =========================================================
+    // DATA ANALYTICS WITH GENERATIVE AI
+    // =========================================================
+
+    'Data Analytics with Generative AI': {
+        title: 'Data Analytics with Generative AI',
+        description:
+            'Learn data analytics using Excel, SQL, Python, Power BI and Generative AI. Develop skills in data cleaning, statistical analysis, visualization, interactive dashboards, AI-powered insights and business decision-making through practical projects.',
+        image: 'students-2.jpg',
+        duration: '3–6 Months',
+        level: 'Beginner to Advanced',
+        mode: 'Classroom / Hybrid',
+        certification: 'Course Certificate',
+        projects: '8+ Projects',
+
+        modules: [
+            {
+                title: 'Introduction to Data Analytics',
+                topics: [
+                    'Introduction to Data Analytics',
+                    'Types of Data Analytics',
+                    'Descriptive Analytics',
+                    'Diagnostic Analytics',
+                    'Predictive Analytics',
+                    'Prescriptive Analytics',
+                    'Data Analyst Roles & Responsibilities',
+                    'Data Analytics Lifecycle',
+                    'Business Intelligence Fundamentals',
+                    'Real-World Analytics Use Cases'
+                ]
+            },
+            {
+                title: 'Excel for Data Analytics',
+                topics: [
+                    'Excel Fundamentals',
+                    'Data Entry & Formatting',
+                    'Sorting & Filtering',
+                    'Data Cleaning in Excel',
+                    'Basic & Advanced Formulas',
+                    'IF and Nested IF',
+                    'SUMIF and COUNTIF',
+                    'VLOOKUP and XLOOKUP',
+                    'INDEX and MATCH',
+                    'Text & Date Functions',
+                    'Conditional Formatting',
+                    'Pivot Tables',
+                    'Pivot Charts',
+                    'Excel Dashboards',
+                    'Data Validation'
+                ]
+            },
+            {
+                title: 'SQL & Database Management',
+                topics: [
+                    'Database Fundamentals',
+                    'Relational Databases',
+                    'MySQL Installation & Setup',
+                    'Tables and Data Types',
+                    'SELECT Statements',
+                    'WHERE and ORDER BY',
+                    'GROUP BY and HAVING',
+                    'Aggregate Functions',
+                    'Joins: INNER, LEFT, RIGHT',
+                    'Subqueries',
+                    'Common Table Expressions (CTEs)',
+                    'CASE Statements',
+                    'Views',
+                    'Window Functions',
+                    'Data Manipulation: INSERT, UPDATE, DELETE',
+                    'Business Queries & Case Studies'
+                ]
+            },
+            {
+                title: 'Python Programming for Data Analytics',
+                topics: [
+                    'Python Fundamentals',
+                    'Variables and Data Types',
+                    'Conditions and Loops',
+                    'Functions',
+                    'Lists, Tuples, Sets and Dictionaries',
+                    'File Handling',
+                    'Exception Handling',
+                    'Jupyter Notebook',
+                    'NumPy Fundamentals',
+                    'Pandas DataFrames and Series',
+                    'Importing CSV and Excel Files',
+                    'Data Filtering and Sorting',
+                    'Handling Missing Values',
+                    'Removing Duplicate Records',
+                    'Data Transformation',
+                    'Merging and Grouping Data',
+                    'Exporting Analysis Results'
+                ]
+            },
+            {
+                title: 'Statistics for Data Analytics',
+                topics: [
+                    'Descriptive Statistics',
+                    'Mean, Median and Mode',
+                    'Range and Variance',
+                    'Standard Deviation',
+                    'Percentiles and Quartiles',
+                    'Probability Fundamentals',
+                    'Probability Distributions',
+                    'Correlation and Covariance',
+                    'Sampling Techniques',
+                    'Hypothesis Testing',
+                    'Confidence Intervals',
+                    'Outlier Detection',
+                    'Statistical Interpretation',
+                    'Business Data Analysis'
+                ]
+            },
+            {
+                title: 'Data Visualization',
+                topics: [
+                    'Principles of Data Visualization',
+                    'Choosing the Right Chart',
+                    'Matplotlib',
+                    'Seaborn',
+                    'Bar Charts',
+                    'Line Charts',
+                    'Pie Charts',
+                    'Histograms',
+                    'Scatter Plots',
+                    'Heatmaps',
+                    'Trend Analysis',
+                    'Comparative Analysis',
+                    'Visual Storytelling',
+                    'Presenting Data Insights'
+                ]
+            },
+            {
+                title: 'Power BI & Interactive Dashboards',
+                topics: [
+                    'Introduction to Power BI',
+                    'Power BI Desktop',
+                    'Connecting Data Sources',
+                    'Importing Excel and SQL Data',
+                    'Power Query Editor',
+                    'Data Cleaning and Transformation',
+                    'Data Modeling',
+                    'Relationships',
+                    'Star Schema Fundamentals',
+                    'DAX Fundamentals',
+                    'Calculated Columns and Measures',
+                    'Time Intelligence',
+                    'KPIs and Metrics',
+                    'Interactive Charts and Slicers',
+                    'Drill-Down and Drill-Through',
+                    'Dashboard Design',
+                    'Power BI Service',
+                    'Publishing and Sharing Reports',
+                    'Business Dashboard Projects'
+                ]
+            },
+            {
+                title: 'Generative AI Fundamentals',
+                topics: [
+                    'Introduction to Artificial Intelligence',
+                    'Machine Learning vs Generative AI',
+                    'Large Language Models (LLMs)',
+                    'Introduction to ChatGPT',
+                    'Introduction to Google Gemini',
+                    'AI Tools for Data Analysts',
+                    'Prompt Engineering Fundamentals',
+                    'Writing Effective Prompts',
+                    'AI-Assisted Data Exploration',
+                    'Generating SQL Queries with AI',
+                    'Generating Python Code with AI',
+                    'Excel Formula Assistance',
+                    'AI-Assisted Documentation',
+                    'AI Output Verification',
+                    'Responsible AI and Data Privacy'
+                ]
+            },
+            {
+                title: 'AI-Powered Data Analytics',
+                topics: [
+                    'Using AI to Understand Datasets',
+                    'Automated Data Cleaning Assistance',
+                    'AI-Assisted Exploratory Data Analysis',
+                    'Generating Data Summaries',
+                    'Identifying Patterns and Trends',
+                    'AI-Assisted Statistical Interpretation',
+                    'Generating SQL with Natural Language',
+                    'Python Code Generation and Debugging',
+                    'AI-Assisted Chart Recommendations',
+                    'Generating Business Insights',
+                    'Creating Reports with AI',
+                    'Executive Summary Generation',
+                    'Automating Repetitive Analysis Tasks',
+                    'Validating AI-Generated Results',
+                    'Building AI-Assisted Analytics Workflows'
+                ]
+            },
+            {
+                title: 'Business Intelligence & Case Studies',
+                topics: [
+                    'Understanding Business Requirements',
+                    'Defining KPIs and Metrics',
+                    'Sales Performance Analysis',
+                    'Customer Behavior Analysis',
+                    'Customer Segmentation Fundamentals',
+                    'Marketing Campaign Analysis',
+                    'Financial Performance Analysis',
+                    'Inventory Analysis',
+                    'HR Analytics',
+                    'E-Commerce Analytics',
+                    'Trend and Variance Analysis',
+                    'Root Cause Analysis',
+                    'Data-Driven Decision Making',
+                    'Business Recommendations',
+                    'Stakeholder Reporting'
+                ]
+            },
+            {
+                title: 'Generative AI Mini Projects',
+                topics: [
+                    'AI-Powered CSV Data Analyzer',
+                    'Natural Language to SQL Assistant',
+                    'AI-Assisted Excel Report Generator',
+                    'Automated Data Quality Checker',
+                    'Business Insights Generator',
+                    'AI-Powered Data Summarization',
+                    'Automated Analytics Report Generator',
+                    'Dashboard Insights Assistant'
+                ]
+            },
+            {
+                title: 'Capstone Projects & Interview Preparation',
+                topics: [
+                    'End-to-End Data Analytics Project',
+                    'Sales Analytics Dashboard',
+                    'Customer Churn Analysis',
+                    'E-Commerce Business Intelligence',
+                    'HR Analytics Dashboard',
+                    'Financial Data Analysis',
+                    'Python and SQL Integration',
+                    'Power BI Dashboard Presentation',
+                    'Generative AI Analytics Project',
+                    'Data Analyst Interview Questions',
+                    'SQL Coding Practice',
+                    'Python Coding Questions',
+                    'Excel Interview Questions',
+                    'Statistics and Power BI Questions',
+                    'Business Case Study Practice',
+                    'Resume and Portfolio Preparation',
+                    'Project Explanation',
+                    'Mock Interviews'
+                ]
+            }
+        ]
+    },
 
     // =========================================================
     // MERN STACK
     // =========================================================
 
     'MERN Stack': {
-        title: 'Full Stack Web Development (MERN)',
+        title: 'MERN Stack Development',
         description:
-            'Build modern full-stack web applications using MongoDB, Express.js, React.js and Node.js through practical learning and real-world projects.',
+            'Build modern MERN-stack applications using MongoDB, Express.js, React.js and Node.js through practical learning and real-world projects.',
         image: 'hero-learning.jpg',
         duration: '3–6 Months',
         level: 'Beginner to Advanced',
@@ -538,168 +793,541 @@ const data = {
     },
 
 
+     
     // =========================================================
-    // DATA SCIENCE & MACHINE LEARNING
+    // PYTHON FULL STACK DEVELOPMENT
     // =========================================================
 
-    'Data Science & Machine Learning': {
-        title: 'Data Science & Machine Learning',
+    'Python Full Stack Development': {
+        title: 'Python Full Stack Development',
         description:
-            'Build practical skills in Python, statistics, data analysis, visualization and machine learning through hands-on learning and real-world projects.',
-        image: 'students-3.jpg',
-        duration: '4–6 Months',
-        level: 'Intermediate',
-        mode: 'Practical / Classroom',
+            'Learn Python Full Stack Development through frontend design, Python programming, backend development, database management, REST API integration and real-world web application projects.',
+        image: 'hero-python-fullstack.png',
+        duration: '3–6 Months',
+        level: 'Beginner to Advanced',
+        mode: 'Classroom / Hybrid',
         certification: 'Course Completion Certificate',
-        projects: 'Practical Projects',
+        projects: '5+ Full Stack Projects',
 
         modules: [
             {
-                title: 'Python for Data Science',
+                title: 'Web Development Fundamentals',
                 topics: [
-                    'Python Fundamentals',
-                    'Variables',
-                    'Data Types',
-                    'Functions',
-                    'Lists',
-                    'Tuples',
-                    'Dictionaries',
-                    'File Handling',
-                    'Exception Handling'
+                    'Introduction to Web Development',
+                    'Client-Server Architecture',
+                    'Frontend vs Backend',
+                    'How Websites Work',
+                    'HTTP & HTTPS',
+                    'Domain & Hosting',
+                    'Development Tools',
+                    'VS Code',
+                    'Browser Developer Tools'
                 ]
             },
             {
-                title: 'NumPy & Pandas',
+                title: 'HTML5 & CSS3',
+                topics: [
+                    'HTML Fundamentals',
+                    'HTML5 Semantic Elements',
+                    'Forms & Input Fields',
+                    'Tables & Lists',
+                    'CSS Selectors',
+                    'Box Model',
+                    'Flexbox',
+                    'CSS Grid',
+                    'Responsive Web Design',
+                    'Media Queries',
+                    'Animations & Transitions'
+                ]
+            },
+            {
+                title: 'JavaScript Programming',
+                topics: [
+                    'Variables & Data Types',
+                    'Operators',
+                    'Conditional Statements',
+                    'Loops',
+                    'Functions',
+                    'Arrays & Objects',
+                    'Array Methods',
+                    'DOM Manipulation',
+                    'Event Handling',
+                    'ES6 Features',
+                    'Promises',
+                    'Async/Await',
+                    'Fetch API',
+                    'JSON'
+                ]
+            },
+            {
+                title: 'Python Programming',
+                topics: [
+                    'Python Fundamentals',
+                    'Variables & Data Types',
+                    'Operators',
+                    'Conditional Statements',
+                    'Loops',
+                    'Functions',
+                    'Lists & Tuples',
+                    'Sets & Dictionaries',
+                    'String Manipulation',
+                    'List Comprehensions',
+                    'File Handling',
+                    'Exception Handling',
+                    'Object-Oriented Programming',
+                    'Classes & Objects',
+                    'Inheritance',
+                    'Modules & Packages',
+                    'Virtual Environments'
+                ]
+            },
+            {
+                title: 'Frontend Development with React.js',
+                topics: [
+                    'Introduction to React.js',
+                    'JSX',
+                    'Components',
+                    'Props',
+                    'State Management',
+                    'Event Handling',
+                    'Conditional Rendering',
+                    'Lists & Keys',
+                    'React Hooks',
+                    'useState',
+                    'useEffect',
+                    'React Router',
+                    'Forms & Validation',
+                    'API Integration',
+                    'Reusable Components',
+                    'Responsive UI Development'
+                ]
+            },
+            {
+                title: 'Backend Development with Flask',
+                topics: [
+                    'Introduction to Flask',
+                    'Flask Project Structure',
+                    'Routing',
+                    'Views & Templates',
+                    'Jinja2 Templates',
+                    'Request & Response',
+                    'Form Handling',
+                    'Flask Blueprints',
+                    'Middleware Concepts',
+                    'Session Management',
+                    'Authentication',
+                    'File Uploads',
+                    'Error Handling',
+                    'Flask Application Development'
+                ]
+            },
+            {
+                title: 'Backend Development with Django',
+                topics: [
+                    'Introduction to Django',
+                    'Django Project Structure',
+                    'MVT Architecture',
+                    'URL Routing',
+                    'Views & Templates',
+                    'Django Models',
+                    'Django ORM',
+                    'Migrations',
+                    'Django Admin Panel',
+                    'Forms & ModelForms',
+                    'User Authentication',
+                    'Sessions & Cookies',
+                    'Middleware',
+                    'Static & Media Files',
+                    'Django Application Development'
+                ]
+            },
+            {
+                title: 'Database Management with SQL & MySQL',
+                topics: [
+                    'Database Fundamentals',
+                    'Relational Databases',
+                    'MySQL',
+                    'Database Design',
+                    'Tables & Relationships',
+                    'Primary & Foreign Keys',
+                    'CRUD Operations',
+                    'SELECT Queries',
+                    'INSERT',
+                    'UPDATE',
+                    'DELETE',
+                    'Joins',
+                    'Subqueries',
+                    'Aggregate Functions',
+                    'GROUP BY & HAVING',
+                    'Normalization',
+                    'Database Connectivity',
+                    'Python Database Integration'
+                ]
+            },
+            {
+                title: 'REST APIs & Backend Integration',
+                topics: [
+                    'Introduction to REST APIs',
+                    'HTTP Methods',
+                    'GET, POST, PUT & DELETE',
+                    'HTTP Status Codes',
+                    'JSON Data Handling',
+                    'API Development',
+                    'API Integration with React',
+                    'Request Validation',
+                    'Authentication & Authorization',
+                    'JWT Authentication',
+                    'Password Hashing',
+                    'API Testing with Postman',
+                    'Error Handling',
+                    'CORS',
+                    'API Documentation'
+                ]
+            },
+            {
+                title: 'Git, GitHub & Development Tools',
+                topics: [
+                    'Git Fundamentals',
+                    'Git Initialization',
+                    'Add & Commit',
+                    'Branching & Merging',
+                    'GitHub Repositories',
+                    'Push & Pull',
+                    'Pull Requests',
+                    'Merge Conflict Resolution',
+                    'Environment Variables',
+                    'Requirements Files',
+                    'Debugging',
+                    'Code Quality',
+                    'Team Collaboration'
+                ]
+            },
+            {
+                title: 'Web Application Security',
+                topics: [
+                    'Authentication & Authorization',
+                    'Password Hashing',
+                    'Input Validation',
+                    'SQL Injection Prevention',
+                    'Cross-Site Scripting Basics',
+                    'CSRF Protection',
+                    'Secure API Development',
+                    'Environment Variable Security',
+                    'Access Control',
+                    'Session Security'
+                ]
+            },
+            {
+                title: 'Deployment & Hosting',
+                topics: [
+                    'Production vs Development',
+                    'Environment Configuration',
+                    'Application Deployment',
+                    'Deploying Python Applications',
+                    'Frontend Deployment',
+                    'Database Configuration',
+                    'Production Settings',
+                    'Static File Handling',
+                    'Application Logs',
+                    'Debugging Deployment Issues',
+                    'Basic Cloud Hosting',
+                    'Domain & Hosting Fundamentals'
+                ]
+            },
+            {
+                title: 'Full Stack Projects & Interview Preparation',
+                topics: [
+                    'Personal Portfolio Website',
+                    'Student Management System',
+                    'Intern Management System',
+                    'Employee Management System',
+                    'E-Commerce Web Application',
+                    'Authentication & Login System',
+                    'CRUD Application',
+                    'React + Python API Integration',
+                    'Database Design & Integration',
+                    'Project Deployment',
+                    'Python Coding Questions',
+                    'SQL Interview Questions',
+                    'Django & Flask Interview Questions',
+                    'React.js Interview Questions',
+                    'REST API Interview Questions',
+                    'Resume & Project Explanation',
+                    'Technical Mock Interviews'
+                ]
+            }
+        ]
+    },
+
+
+    
+    // =========================================================
+    // DATA SCIENCE WITH AI & MACHINE LEARNING
+    // =========================================================
+
+    'Data Science with AI & Machine Learning': {
+        title: 'Data Science with AI & Machine Learning',
+        description:
+            'Master Python, statistics, data analytics, machine learning, deep learning and Artificial Intelligence. Learn to build predictive models, explore Generative AI, work with real-world datasets and develop intelligent applications through hands-on projects.',
+        image: 'hero-data-science-aiml.png',
+        duration: '4–6 Months',
+        level: 'Beginner to Advanced',
+        mode: 'Practical / Classroom / Hybrid',
+        certification: 'Course Completion Certificate',
+        projects: '5+ Real-World AI & Data Science Projects',
+
+        modules: [
+            {
+                title: 'Python Programming for Data Science',
+                topics: [
+                    'Python Fundamentals',
+                    'Variables & Data Types',
+                    'Operators',
+                    'Conditional Statements',
+                    'Loops',
+                    'Functions',
+                    'Lists & Tuples',
+                    'Sets & Dictionaries',
+                    'List Comprehensions',
+                    'File Handling',
+                    'Exception Handling',
+                    'Object-Oriented Programming',
+                    'Modules & Packages',
+                    'Virtual Environments'
+                ]
+            },
+            {
+                title: 'NumPy, Pandas & Data Processing',
                 topics: [
                     'NumPy Arrays',
                     'Array Operations',
-                    'Indexing',
-                    'Slicing',
+                    'Indexing & Slicing',
                     'Pandas Series',
                     'DataFrames',
-                    'Filtering',
-                    'Sorting',
-                    'Grouping',
-                    'Merging',
-                    'Data Transformation'
+                    'Data Selection & Filtering',
+                    'Sorting & Grouping',
+                    'Merging & Joining Data',
+                    'Missing Value Handling',
+                    'Duplicate Removal',
+                    'Data Transformation',
+                    'Working with CSV & Excel Files'
                 ]
             },
             {
-                title: 'Statistics for Data Science',
+                title: 'Statistics & Mathematics for AI/ML',
                 topics: [
                     'Descriptive Statistics',
-                    'Mean',
-                    'Median',
-                    'Mode',
-                    'Variance',
-                    'Standard Deviation',
+                    'Mean, Median & Mode',
+                    'Variance & Standard Deviation',
                     'Probability',
-                    'Distributions',
-                    'Correlation',
-                    'Basic Statistical Analysis'
+                    'Probability Distributions',
+                    'Correlation & Covariance',
+                    'Hypothesis Testing Basics',
+                    'Sampling Techniques',
+                    'Linear Algebra Fundamentals',
+                    'Vectors & Matrices',
+                    'Calculus Fundamentals',
+                    'Statistical Analysis'
                 ]
             },
             {
                 title: 'Data Cleaning & Exploratory Data Analysis',
                 topics: [
-                    'Data Cleaning',
+                    'Data Collection',
+                    'Data Quality Assessment',
                     'Missing Values',
                     'Duplicate Data',
-                    'Data Types',
-                    'Outliers',
-                    'Data Transformation',
-                    'Exploratory Data Analysis',
-                    'Data Patterns',
-                    'Data Relationships'
+                    'Outlier Detection',
+                    'Data Formatting',
+                    'Feature Exploration',
+                    'Exploratory Data Analysis (EDA)',
+                    'Data Patterns & Trends',
+                    'Correlation Analysis',
+                    'Data Insights',
+                    'Real-World Dataset Analysis'
                 ]
             },
             {
-                title: 'Data Visualization',
+                title: 'Data Visualization & Business Insights',
                 topics: [
-                    'Data Visualization',
-                    'Charts',
-                    'Bar Charts',
-                    'Line Charts',
-                    'Pie Charts',
-                    'Histograms',
-                    'Scatter Plots',
                     'Matplotlib',
                     'Seaborn',
-                    'Data Presentation'
+                    'Bar Charts',
+                    'Line Charts',
+                    'Histograms',
+                    'Scatter Plots',
+                    'Heatmaps',
+                    'Distribution Plots',
+                    'Interactive Visualization Basics',
+                    'Dashboard Fundamentals',
+                    'Data Storytelling',
+                    'Business Insights & Reporting'
+                ]
+            },
+            {
+                title: 'SQL & Database Management',
+                topics: [
+                    'Database Fundamentals',
+                    'SQL Basics',
+                    'SELECT & WHERE',
+                    'INSERT, UPDATE & DELETE',
+                    'ORDER BY',
+                    'GROUP BY & HAVING',
+                    'Aggregate Functions',
+                    'Inner & Outer Joins',
+                    'Subqueries',
+                    'MySQL',
+                    'Database Connectivity with Python',
+                    'Data Extraction & Analysis'
                 ]
             },
             {
                 title: 'Machine Learning Fundamentals',
                 topics: [
-                    'Machine Learning Basics',
+                    'Introduction to Machine Learning',
+                    'Types of Machine Learning',
                     'Supervised Learning',
                     'Unsupervised Learning',
-                    'Features',
-                    'Labels',
-                    'Training Data',
-                    'Testing Data',
-                    'Model Training',
-                    'Prediction'
+                    'Features & Labels',
+                    'Training & Testing Datasets',
+                    'Data Preprocessing',
+                    'Feature Engineering',
+                    'Feature Scaling',
+                    'Encoding Categorical Data',
+                    'Scikit-learn',
+                    'Building ML Pipelines'
                 ]
             },
             {
                 title: 'Machine Learning Algorithms',
                 topics: [
                     'Linear Regression',
+                    'Multiple Linear Regression',
                     'Logistic Regression',
                     'Decision Trees',
                     'Random Forest',
-                    'K-Nearest Neighbors',
-                    'Clustering',
-                    'K-Means',
-                    'Classification',
-                    'Regression'
+                    'K-Nearest Neighbors (KNN)',
+                    'Support Vector Machines (SVM)',
+                    'Naive Bayes',
+                    'K-Means Clustering',
+                    'Hierarchical Clustering',
+                    'Dimensionality Reduction Basics',
+                    'Classification & Regression',
+                    'Recommendation Systems Basics'
                 ]
             },
             {
                 title: 'Model Evaluation & Optimization',
                 topics: [
                     'Train-Test Split',
-                    'Cross Validation',
-                    'Accuracy',
-                    'Precision',
-                    'Recall',
-                    'F1 Score',
+                    'Cross-Validation',
                     'Confusion Matrix',
-                    'Overfitting',
-                    'Underfitting',
-                    'Model Optimization'
+                    'Accuracy',
+                    'Precision & Recall',
+                    'F1 Score',
+                    'MAE & MSE',
+                    'R-Squared',
+                    'Overfitting & Underfitting',
+                    'Bias-Variance Tradeoff',
+                    'Hyperparameter Tuning',
+                    'Grid Search',
+                    'Model Selection',
+                    'Model Performance Comparison'
                 ]
             },
             {
-                title: 'SQL & Data Handling',
+                title: 'Deep Learning & Neural Networks',
                 topics: [
-                    'SQL Fundamentals',
-                    'SELECT',
-                    'Filtering',
-                    'Sorting',
-                    'Grouping',
-                    'Joins',
-                    'Aggregate Functions',
-                    'Database Connection',
-                    'Data Extraction'
+                    'Introduction to Deep Learning',
+                    'Artificial Neural Networks',
+                    'Neurons & Layers',
+                    'Activation Functions',
+                    'Forward Propagation',
+                    'Backpropagation Basics',
+                    'Loss Functions',
+                    'Optimizers',
+                    'TensorFlow & Keras Fundamentals',
+                    'Image Classification Basics',
+                    'Natural Language Processing Basics',
+                    'Deep Learning Applications'
                 ]
             },
             {
-                title: 'Projects & Career Preparation',
+                title: 'Artificial Intelligence Fundamentals',
                 topics: [
-                    'Data Analysis Projects',
-                    'Machine Learning Projects',
-                    'Data Visualization Projects',
-                    'Model Building',
-                    'Project Presentation',
+                    'Introduction to Artificial Intelligence',
+                    'AI vs Machine Learning vs Deep Learning',
+                    'Intelligent Systems',
+                    'Search & Problem-Solving Basics',
+                    'Knowledge Representation Basics',
+                    'Natural Language Processing',
+                    'Computer Vision Fundamentals',
+                    'AI Use Cases',
+                    'Responsible AI',
+                    'AI Ethics & Bias',
+                    'AI Application Development'
+                ]
+            },
+            {
+                title: 'Generative AI & Large Language Models',
+                topics: [
+                    'Introduction to Generative AI',
+                    'Generative AI Use Cases',
+                    'Large Language Models (LLMs)',
+                    'Prompt Engineering',
+                    'Prompt Design & Optimization',
+                    'Text Generation',
+                    'AI-Powered Data Analysis',
+                    'Embeddings Fundamentals',
+                    'Vector Database Concepts',
+                    'Retrieval-Augmented Generation (RAG) Basics',
+                    'AI APIs & Python Integration',
+                    'Building AI-Powered Applications',
+                    'Responsible Generative AI'
+                ]
+            },
+            {
+                title: 'AI Tools, APIs & Model Deployment',
+                topics: [
+                    'Jupyter Notebook',
+                    'Google Colab',
+                    'Git & GitHub',
+                    'Working with AI APIs',
+                    'Streamlit Fundamentals',
+                    'Building Interactive ML Applications',
+                    'Saving & Loading Models',
+                    'Model Deployment Basics',
+                    'API Integration',
+                    'Application Testing',
+                    'Deployment & Monitoring Fundamentals'
+                ]
+            },
+            {
+                title: 'Real-World Projects & Interview Preparation',
+                topics: [
+                    'Exploratory Data Analysis Project',
+                    'Sales Data Analysis',
+                    'Customer Churn Prediction',
+                    'House Price Prediction',
+                    'Customer Segmentation',
+                    'Spam Email Classification',
+                    'Sentiment Analysis',
+                    'Image Classification Basics',
+                    'Generative AI Chatbot',
+                    'AI-Powered Data Analysis Application',
+                    'End-to-End ML Project',
+                    'Project Documentation',
+                    'GitHub Portfolio',
                     'Resume Preparation',
-                    'Interview Questions',
+                    'Python & SQL Interview Questions',
+                    'Data Science & ML Interview Questions',
+                    'AI/ML Technical Interviews',
                     'Mock Interviews'
                 ]
             }
         ]
     },
+
 
 
     // =========================================================
@@ -1474,6 +2102,9 @@ const data = {
         ]
     }
 };
+
+
+
 
 
 // =========================================================
